@@ -1,12 +1,18 @@
+/**********************
+BODY
+***********************/
+
 body {
     font-family: sans-serif;
-
 }
+
+/**********************
+HEADER
+***********************/
 
 h2 {
     margin: 0 0 10px 30px;
     color: dimgrey;
-
 }
 
 h3 {
@@ -14,8 +20,8 @@ h3 {
 }
 .tChannels {
     color: blue;
-
 }
+
 .tDevices {
     color: limegreen;
     margin: 0 0 20px 30px;
@@ -26,30 +32,34 @@ select {
     margin: 0 0 0 100px;
 }
 
+/**********************
+TABLE
+***********************/
+
 table {
     float: right;
     margin-right: 45%;
 }
+
 td {
     color: white;
     padding: 5px 50px;
     margin: auto;
-
 }
+
 .channels, .devices {
     font-size: 25px
 }
+
 .countries {
     color: dimgrey;
     font-size: 12px;
-
 }
+
 .channels {
     background-color: blue;
-
 }
 
 .devices {
-
     background-color: limegreen;
 }

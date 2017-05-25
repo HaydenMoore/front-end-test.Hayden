@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="App" >
+<head>
+
+    <meta charset="utf-8">
+    <title>Hayden Moore | Front-End-Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="data.js"></script>
+
+</head>
+
+<body ng-controller="myCtrl">
+    <h2>Content Report</h2>
+    <h3 class="tChannels">Total Channel Count:3328</h3>
+    <h3 class="tDevices">Total Devices Count:7519</h3>
+    <select>
+        <option>All</option>
+        <option ng-repeat="(key, value) in dataSet">{{key}}</option>
+    </select>
+    <table>
+        <tr ng-repeat="(key, value) in dataSet">
+
+            <td class="countries">{{key}}</td>
+            <td class="channels">{{value.Channels}}</td>
+            <td class="devices">{{value.Devices}}</td>
+
+        </tr>
+
+    </table>
+</body>
+
+</html>
